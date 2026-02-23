@@ -1,0 +1,74 @@
+<html>
+<head>
+       <link rel="stylesheet" href="re.css">
+
+<style>
+body{background-color:lightblue}
+
+.co{margin-bottom: 10px;}
+.c2{width:500px; margin:40px 200px;}
+
+input[type="email"]
+textarea {width: 50px; padding: 5px;}
+
+label {display: inline-block; width: 120px; vertical-align: top;}
+
+textarea {display: inline-block; width: 250px; height: 100px; padding: 5px;}
+
+input[type="submit"]:hover { background-color: #575757;}
+
+
+
+</style>
+</head>
+<body>
+
+   <div id="cp">
+
+        <a href="home.html" target="_blank">home</a>
+        <a href="login.html" target="_blank">login</a>
+        <a href="gallery.html" target="_blank">gallery</a>
+        <a href="register.html" target="_blank">register</a>
+        <a href="about.html" target="_blank">about</a>
+</div>
+
+<div class="c2">
+<form>
+<fieldset>
+     
+
+<div class="co">
+      <label for="name"> NAME:</label>
+            <input type="text" class="form-control" id="name" placeholder="name" aria-label=" name">             
+   </div>
+<div class="co">
+      <label for="num">MOBILENO: </label>
+               <input type="number" id="num" name="number" placeholder="number" aria-label="numer">
+</div>
+
+<div class="co">
+            <label for="mail"> EMAILID:</label>
+              <input type="email" id="mail" name="mailid" placeholder="mail" aria-label=" mail">
+</div>
+      
+<div class="co">
+
+       <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="message" aria-label="message" required></textarea>
+
+</div >
+
+
+<div class="co">
+
+           <input type="submit" value="Send Message">
+</div>
+
+
+</form>
+</fieldset>
+      </div>
+
+
+</body>
+</html>

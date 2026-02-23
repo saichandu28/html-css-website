@@ -1,0 +1,65 @@
+
+a:link{text-decoration:none}
+
+a:link{color:green}
+a:visited{color:purple}
+a:hover{color:red; text-decoration:line-through;}
+a:active{color:red}
+ 
+
+#img1 {height:200px; width:255px; margin:100px; opacity:0.5; }
+#img2 {height:300px; width:300px; margin:100px 300px}
+
+#img1,#img2 {border:3px dotted red; border-radius:10px; box-shadow:10px 30px 40px blue; padding:10 }
+
+marquee{border:10px solid red; margin:100px 150px;}
+
+.h1{background-color: #333; overflow: hidden; text-align: center;padding: 10px 0;}
+
+.h1 a { display: inline-block; color: white; text-decoration:line-through; padding: 14px 20px; font-family: Arial, sans-serif; transition: background-color 0.3s ease;}
+
+.h1 a:hover { background-color: #575757; border-radius: 4px;}
+
+.hm{background-color:#fff0f0}
+#img1:hover{transform:rotate(+45deg)}
+#img2:hover{transform:skewy(30deg)}
+
+
+#cp {background-color: #333; overflow: hidden; text-align: center;padding: 10px 0;}
+#cp a { display: inline-block; color: white; text-decoration: none ; padding: 14px 20px; font-family: Arial, sans-serif;transition: background-color 0.3s ease;}
+#cp a:hover { background-color: #575757; border-radius: 4px;}
+
+  
+fieldset{padding:30px}
+
+
+
+
+#l1{background-color: #333; overflow: hidden; text-align: center;padding: 10px 0;}
+#l1 a { display: inline-block; color: white; text-decoration: none; padding: 14px 20px; font-family: Arial, sans-serif;transition: background-color 0.3s ease;}
+#l1 a:hover { background-color: #575757; border-radius: 4px;}
+
+
+label {display: inline-block; width: 120px; font-weight: bold;}
+.log {margin-bottom: 10px;}
+
+input[type="email"],
+input[type="password"],
+select,
+textarea {width: 250px; padding: 5px;}
+h2{text-align:center}
+
+#l2{margin:100px auto; width:500px }
+
+
+
+#g1{background-color: #333; overflow: hidden; text-align: center;padding: 10px 0;}
+#g1 a { display: inline-block; color: white; text-decoration: none; padding: 14px 20px; font-family: Arial, sans-serif;transition: background-color 0.3s ease;}
+#g1 a:hover { background-color: #575757; border-radius: 4px;}
+ 
+#g2 {margin:100px; box-shadow:10px 30px 40px blue; width:500;}
+#g3 {margin:200px; box-shadow:10px 30px 40px yellow; width:300px}
+#g3:hover {transform: scale(1.2);}
+#gb{background-color:lightgreen; background-image:url('pic3.jpeg'); background-repeat:no-repeat; background-position:50%; background-attachment:fixed}
+
+
